@@ -1,0 +1,23 @@
+ {
+  "env": {
+    "node": true,
+    "es6": true,
+  },
+  "extends": [
+    "airbnb",
+    "airbnb-base",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "plugins": [
+    "react",
+    "jsx-a11y"
+  ],
+  "rules": {
+    "comma-dangle": 0,
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+  },
+  "parserOptions": {
+    "ecmaVersion": 6
+  }
+}
