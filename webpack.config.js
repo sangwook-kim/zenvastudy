@@ -13,7 +13,8 @@ const config = {
     },
     resolve: {
         extensions: ['.ts', '.js', '.json']
-    }
+    },
+    mode: 'development'
 };
 
 module.exports = config;
